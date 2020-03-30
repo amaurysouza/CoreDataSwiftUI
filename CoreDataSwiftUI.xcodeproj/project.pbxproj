@@ -14,6 +14,7 @@
 		E3F755F624325CC90063E75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F755F524325CC90063E75A /* Assets.xcassets */; };
 		E3F755F924325CC90063E75A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F755F824325CC90063E75A /* Preview Assets.xcassets */; };
 		E3F755FC24325CC90063E75A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F755FA24325CC90063E75A /* LaunchScreen.storyboard */; };
+		E3F75604243268710063E75A /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F75603243268710063E75A /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E3F755F824325CC90063E75A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E3F755FB24325CC90063E75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3F755FD24325CC90063E75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3F75603243268710063E75A /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E3F755EC24325CC50063E75A /* AppDelegate.swift */,
 				E3F755EE24325CC50063E75A /* SceneDelegate.swift */,
 				E3F755F324325CC50063E75A /* ContentView.swift */,
+				E3F75603243268710063E75A /* ToDoItem.swift */,
 				E3F755F524325CC90063E75A /* Assets.xcassets */,
 				E3F755FA24325CC90063E75A /* LaunchScreen.storyboard */,
 				E3F755FD24325CC90063E75A /* Info.plist */,
@@ -151,6 +154,7 @@
 			files = (
 				E3F755F224325CC50063E75A /* CoreDataSwiftUI.xcdatamodeld in Sources */,
 				E3F755ED24325CC50063E75A /* AppDelegate.swift in Sources */,
+				E3F75604243268710063E75A /* ToDoItem.swift in Sources */,
 				E3F755F424325CC50063E75A /* ContentView.swift in Sources */,
 				E3F755EF24325CC50063E75A /* SceneDelegate.swift in Sources */,
 			);
