@@ -16,6 +16,7 @@ public class ToDoItem:NSManagedObject, Identifiable{
 }
 
 extension ToDoItem{
+    //ainda é magia negra pra mim, mas entendo que ele tá construindo um request e voltando como um vetor de ToDoItem, além de escolher uma key para ordenar e ordenar de acordo com ela. Entendi também que pra se trabalhar com o foreach tem que usar o protocol Identifiable, e o NsManagedObject é para o que for usar CoreData
     static func getAllToDoItems()-> NSFetchRequest<ToDoItem>{
         let request:NSFetchRequest<ToDoItem> = ToDoItem.fetchRequest() as! NSFetchRequest<ToDoItem>
         

@@ -15,6 +15,7 @@
 		E3F755F924325CC90063E75A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F755F824325CC90063E75A /* Preview Assets.xcassets */; };
 		E3F755FC24325CC90063E75A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F755FA24325CC90063E75A /* LaunchScreen.storyboard */; };
 		E3F75604243268710063E75A /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F75603243268710063E75A /* ToDoItem.swift */; };
+		E3F756062433D86F0063E75A /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F756052433D86F0063E75A /* ToDoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E3F755FB24325CC90063E75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3F755FD24325CC90063E75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3F75603243268710063E75A /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		E3F756052433D86F0063E75A /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				E3F755EC24325CC50063E75A /* AppDelegate.swift */,
+				E3F756052433D86F0063E75A /* ToDoItemView.swift */,
 				E3F755EE24325CC50063E75A /* SceneDelegate.swift */,
 				E3F755F324325CC50063E75A /* ContentView.swift */,
 				E3F75603243268710063E75A /* ToDoItem.swift */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3F755F224325CC50063E75A /* CoreDataSwiftUI.xcdatamodeld in Sources */,
+				E3F756062433D86F0063E75A /* ToDoItemView.swift in Sources */,
 				E3F755ED24325CC50063E75A /* AppDelegate.swift in Sources */,
 				E3F75604243268710063E75A /* ToDoItem.swift in Sources */,
 				E3F755F424325CC50063E75A /* ContentView.swift in Sources */,
