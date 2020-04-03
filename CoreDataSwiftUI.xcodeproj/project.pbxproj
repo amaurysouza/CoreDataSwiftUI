@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E32909152436C9A700C7508A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32909142436C9A700C7508A /* CloudKit.framework */; };
 		E3F755ED24325CC50063E75A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F755EC24325CC50063E75A /* AppDelegate.swift */; };
 		E3F755EF24325CC50063E75A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F755EE24325CC50063E75A /* SceneDelegate.swift */; };
 		E3F755F224325CC50063E75A /* CoreDataSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3F755F024325CC50063E75A /* CoreDataSwiftUI.xcdatamodeld */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E32909122436C9A100C7508A /* CoreDataSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoreDataSwiftUI.entitlements; sourceTree = "<group>"; };
+		E32909142436C9A700C7508A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		E3F755E924325CC50063E75A /* CoreDataSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F755EC24325CC50063E75A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3F755EE24325CC50063E75A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,17 +40,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32909152436C9A700C7508A /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E32909132436C9A700C7508A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E32909142436C9A700C7508A /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E3F755E024325CC50063E75A = {
 			isa = PBXGroup;
 			children = (
 				E3F755EB24325CC50063E75A /* CoreDataSwiftUI */,
 				E3F755EA24325CC50063E75A /* Products */,
+				E32909132436C9A700C7508A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +75,7 @@
 		E3F755EB24325CC50063E75A /* CoreDataSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E32909122436C9A100C7508A /* CoreDataSwiftUI.entitlements */,
 				E3F755EC24325CC50063E75A /* AppDelegate.swift */,
 				E3F756052433D86F0063E75A /* ToDoItemView.swift */,
 				E3F755EE24325CC50063E75A /* SceneDelegate.swift */,
@@ -296,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoreDataSwiftUI/CoreDataSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CoreDataSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 532N45X4ZD;
@@ -316,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoreDataSwiftUI/CoreDataSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CoreDataSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 532N45X4ZD;

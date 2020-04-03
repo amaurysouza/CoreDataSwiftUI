@@ -4,7 +4,7 @@
 //
 //  Created by Amaury A V A Souza on 30/03/20.
 //  Copyright © 2020 Amaury A V A Souza. All rights reserved.
-// tutorial realizado em https://www.youtube.com/watch?v=-BZdQmHV4MQ
+// tutorial realizado em https://www.youtube.com/watch?v=TsfOYHbf4Ew
 
 import SwiftUI
 
